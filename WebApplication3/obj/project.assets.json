@@ -2574,6 +2574,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ToSteal.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.13"
+        },
+        "compile": {
+          "bin/placeholder/ToSteal.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToSteal.DTO.dll": {}
+        }
       }
     }
   },
@@ -8464,6 +8478,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ToSteal.DTO/1.0.0": {
+      "type": "project",
+      "path": "../ToSteal.DTO/ToSteal.DTO.csproj",
+      "msbuildProject": "../ToSteal.DTO/ToSteal.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8472,7 +8491,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.13",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.13",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "ToSteal.DTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8481,11 +8501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\SimpleWebApp2\\WebApplication3\\WebApplication3.csproj",
+      "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
       "projectName": "WebApplication3",
-      "projectPath": "C:\\Users\\alexs\\source\\repos\\SimpleWebApp2\\WebApplication3\\WebApplication3.csproj",
+      "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
       "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexs\\source\\repos\\SimpleWebApp2\\WebApplication3\\obj\\",
+      "outputPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8501,7 +8521,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
+              "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

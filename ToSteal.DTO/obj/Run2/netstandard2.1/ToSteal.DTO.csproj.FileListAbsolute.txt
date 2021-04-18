@@ -1,0 +1,9 @@
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\bin\Run2\netstandard2.1\ToSteal.DTO.deps.json
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\bin\Run2\netstandard2.1\ToSteal.DTO.dll
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\bin\Run2\netstandard2.1\ToSteal.DTO.pdb
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.csprojAssemblyReference.cache
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.AssemblyInfoInputs.cache
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.AssemblyInfo.cs
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.csproj.CoreCompileInputs.cache
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.dll
+C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Run2\netstandard2.1\ToSteal.DTO.pdb

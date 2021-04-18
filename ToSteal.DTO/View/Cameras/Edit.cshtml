@@ -1,0 +1,49 @@
+﻿@model WebApplication3.Models.Camera
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Camera</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdCamera" />
+            <div class="form-group">
+                <label asp-for="Etaj" class="control-label"></label>
+                <input asp-for="Etaj" class="form-control" />
+                <span asp-validation-for="Etaj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NrPaturi" class="control-label"></label>
+                <input asp-for="NrPaturi" class="form-control" />
+                <span asp-validation-for="NrPaturi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NrMobilier" class="control-label"></label>
+                <input asp-for="NrMobilier" class="form-control" />
+                <span asp-validation-for="NrMobilier" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCamin" class="control-label"></label>
+                <select asp-for="IdCamin" class="form-control" asp-items="ViewBag.IdCamin"></select>
+                <span asp-validation-for="IdCamin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
