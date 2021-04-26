@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj": {}
+    "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
         "projectName": "ToSteal.DTO",
-        "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
-        "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,17 +68,17 @@
         }
       }
     },
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj": {
+    "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
-        "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
-                "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj"
+              "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj"
               }
             }
           }
