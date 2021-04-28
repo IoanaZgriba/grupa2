@@ -9,6 +9,11 @@ namespace WebApplication3.Models
 {
     public partial class Administrator
     {
+        public Administrator()
+        {
+            Tichet = new HashSet<Tichet>();
+        }
+
         public int IdAdministrator { get; set; }
         public string Nume { get; set; }
         public string Prenume { get; set; }
@@ -17,5 +22,6 @@ namespace WebApplication3.Models
         public int IdCamin { get; set; }
 
         public virtual Camin IdCaminNavigation { get; set; }
+        public virtual ICollection<Tichet> Tichet { get; set; }
     }
 }

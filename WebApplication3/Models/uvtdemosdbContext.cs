@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace WebApplication3.Models
 {
+   
     public partial class uvtdemosdbContext : DbContext
     {
         public uvtdemosdbContext()
@@ -24,6 +25,7 @@ namespace WebApplication3.Models
         public virtual DbSet<Camin> Camin { get; set; }
         public virtual DbSet<Student> Student { get; set; }
         public virtual DbSet<Taxa> Taxa { get; set; }
+        public virtual DbSet<Tichet> Tichet { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -214,6 +216,40 @@ namespace WebApplication3.Models
                 entity.Property(e => e.Pret)
                     .HasColumnName("pret")
                     .HasColumnType("decimal(18, 0)");
+            });
+
+            modelBuilder.Entity<Tichet>(entity =>
+            {
+                entity.HasKey(e => e.IdTichet)
+                    .HasName("PK__TICHET__4E9E5044AD1B8105");
+
+                entity.ToTable("TICHET");
+
+                entity.Property(e => e.IdTichet)
+                    .HasColumnName("id_tichet")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.CnpStudent).HasColumnName("cnp_student");
+
+                entity.Property(e => e.DescriereTichet)
+                    .HasColumnName("descriere_tichet")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.IdAdministrator).HasColumnName("id_administrator");
+
+                entity.Property(e => e.Urgenta).HasColumnName("urgenta");
+
+                entity.HasOne(d => d.CnpStudentNavigation)
+                    .WithMany(p => p.Tichet)
+                    .HasForeignKey(d => d.CnpStudent)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__TICHET__cnp_stud__6FE99F9F");
+
+                entity.HasOne(d => d.IdAdministratorNavigation)
+                    .WithMany(p => p.Tichet)
+                    .HasForeignKey(d => d.IdAdministrator)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__TICHET__id_admin__70DDC3D8");
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -230,6 +230,7 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Syste
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
@@ -291,9 +292,13 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runti
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\ToSteal.DTO.dll
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\ToSteal.DTO.pdb
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.csprojAssemblyReference.cache
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.AssemblyInfoInputs.cache
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.AssemblyInfo.cs
@@ -307,6 +312,10 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\scope
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.TagHelpers.input.cache
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.TagHelpers.output.cache
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.RazorCoreGenerate.cache
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Account\Create.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Account\Error.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Account\LayoutPage1.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Create.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Delete.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Details.cshtml.g.cs
@@ -324,6 +333,7 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Camins\Index.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\LayoutPage1.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -337,6 +347,11 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Details.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Edit.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Index.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Create.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Delete.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Details.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Edit.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Index.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.RazorTargetAssemblyInfo.cache
@@ -346,5 +361,3 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebAp
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.pdb
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.genruntimeconfig.cache
-C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\ToSteal.DTO.dll
-C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\ToSteal.DTO.pdb

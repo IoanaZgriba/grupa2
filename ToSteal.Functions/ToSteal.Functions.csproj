@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>
@@ -9,9 +9,11 @@
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.10" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.10" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.11" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ToSteal.DTO\ToSteal.DTO.csproj" />
+    <ProjectReference Include="..\WebApplication3\WebApplication3.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
