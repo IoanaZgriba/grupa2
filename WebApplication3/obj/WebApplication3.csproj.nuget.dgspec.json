@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj": {}
+    "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
+    "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
         "projectName": "ToSteal.DTO",
-        "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
-        "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\obj\\",
+        "projectPath": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj",
+        "packagesPath": "C:\\Users\\ioana.zgriba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ioana.zgriba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj": {
+    "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\WebApplication3.csproj",
-        "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\WebApplication3\\obj\\",
+        "projectPath": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\WebApplication3.csproj",
+        "packagesPath": "C:\\Users\\ioana.zgriba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ioana.zgriba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
-                "projectPath": "C:\\Users\\alexs\\source\\repos\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj"
+              "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj": {
+                "projectPath": "C:\\Users\\ioana.zgriba\\source\\repos\\IoanaZgriba\\grupa2\\ToSteal.DTO\\ToSteal.DTO.csproj"
               }
             }
           }
@@ -151,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
