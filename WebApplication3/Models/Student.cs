@@ -9,6 +9,11 @@ namespace WebApplication3.Models
 {
     public partial class Student
     {
+        public Student()
+        {
+            Tichet = new HashSet<Tichet>();
+        }
+
         public long Cnp { get; set; }
         public string Nume { get; set; }
         public string Prenume { get; set; }
@@ -24,5 +29,6 @@ namespace WebApplication3.Models
         public int IdCamera { get; set; }
 
         public virtual Camera IdCameraNavigation { get; set; }
+        public virtual ICollection<Tichet> Tichet { get; set; }
     }
 }

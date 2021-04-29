@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication3", "WebApplication3.csproj", "{BF1D6557-B704-4BDE-BE52-C5EEFE2F9C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToSteal.DTO", "..\ToSteal.DTO\ToSteal.DTO.csproj", "{A04EB737-0FE5-42F0-A12E-F4B0BB1C2A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToSteal.DTO", "..\ToSteal.DTO\ToSteal.DTO.csproj", "{A04EB737-0FE5-42F0-A12E-F4B0BB1C2A7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToSteal.Functions", "..\ToSteal.Functions\ToSteal.Functions.csproj", "{91A11197-2AD5-4BA6-B88D-3601BD9F3B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToSteal.Functions", "..\ToSteal.Functions\ToSteal.Functions.csproj", "{91A11197-2AD5-4BA6-B88D-3601BD9F3B0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

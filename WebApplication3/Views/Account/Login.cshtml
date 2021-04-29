@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/LayoutPage1.cshtml";
+  
+
+}
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<h1 class="header-w3ls">
+    Balloons Login Form
+</h1>
+<div class="mid-cls">
+    <div class="swm-right-w3ls">
+        <h2> Login Here</h2>
+        <form action="Verify" method="post">
+            <div class="main">
+                <div class="form-left-w3l">
+                    <input type="text" name="Username" placeholder="Enter username" required="">
+                    <div class="clear"></div>
+                </div>
+                <div class="form-right-w3ls">
+                    <input type="password" name="Password" placeholder="Password" required="">
+                    <div class="clear"></div>
+                </div>
+                <div class="btnn">
+                    <button type="submit">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="copy">
+    <p>
+        &copy;2018 Balloons Login Form. All Rights Reserved | Design by
+        <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
+    </p>
+</div>
+</body>

@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using ToSteal.DTO.Models;
 using WebApplication3.Models;
+using Camin = WebApplication3.Models.Camin;
 
 namespace ToSteal.Functions
 {
@@ -15,19 +16,19 @@ namespace ToSteal.Functions
     {
         [FunctionName("Function1")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            int nr_camere = System.Int32.Parse(req.Query["NrCamere"]);
-            string Adresa = req.Query["Adresa"].ToString();
+   //         int nr_camere = System.Int32.Parse(req.Query["NrCamere"]);
+   //         string Adresa = req.Query["Adresa"].ToString();
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
 
-            nr_camere = nr_camere == 0 ? data?.nr_camere : nr_camere;
-            Adresa = Adresa == "" ? data?.Adresa : Adresa;
+            int nr_camere =  data?.NrCamere ;
+            string Adresa = data?.Adresa ;
 
             if (!string.IsNullOrEmpty(Adresa))
             {
@@ -35,11 +36,14 @@ namespace ToSteal.Functions
                 {
                     dbLink.Camin.Add(new Camin
                     {
+                        IdCamin = 5,
+                        IdTaxa = 2,
                         Adresa = Adresa,
                         NrCamere = nr_camere
 
                     });
-                    dbLink.SaveChanges();
+                   
+                    await dbLink.SaveChangesAsync();
                 }
             }
 
