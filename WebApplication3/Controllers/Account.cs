@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebApplication3.Models;
 using System.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication3.Controllers
 {
@@ -13,9 +14,10 @@ namespace WebApplication3.Controllers
         SqlConnection con = new SqlConnection();
         SqlCommand com = new SqlCommand();
         SqlDataReader dr;
+        private readonly uvtdemosdbContext _context = new uvtdemosdbContext();
 
- //       public string username { get; private set; }
-//        public string password { get; private set; }
+        //       public string username { get; private set; }
+        //        public string password { get; private set; }
 
         [HttpGet]
         public ActionResult Login()
@@ -47,8 +49,9 @@ namespace WebApplication3.Controllers
                 }
                 if (temp.Contains("stud_"))
                 {
+                    var uvtdemosdbContext = _context.Student.Include(s => s.IdCameraNavigation);
                     con.Close();
-                    return View("/Views/Students/Index.cshtml", new List<Student>());
+                    return View("/Views/Students/Index.cshtml", uvtdemosdbContext.ToList());
                 }
 
             }
