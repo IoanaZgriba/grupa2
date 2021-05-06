@@ -44,7 +44,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: red;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -296,7 +296,7 @@ tfoot,
 tr,
 td,
 th {
-  border-color: inherit;
+  border-color: crimson;
   border-style: solid;
   border-width: 0;
 }

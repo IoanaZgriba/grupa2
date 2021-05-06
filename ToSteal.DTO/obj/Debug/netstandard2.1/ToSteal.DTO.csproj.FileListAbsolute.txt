@@ -7,3 +7,12 @@ C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.
 C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.csproj.CoreCompileInputs.cache
 C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.dll
 C:\Users\alexs\source\repos\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.pdb
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\bin\Debug\netstandard2.1\ToSteal.DTO.deps.json
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\bin\Debug\netstandard2.1\ToSteal.DTO.dll
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\bin\Debug\netstandard2.1\ToSteal.DTO.pdb
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.csprojAssemblyReference.cache
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.AssemblyInfoInputs.cache
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.AssemblyInfo.cs
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.dll
+C:\Users\ioana.zgriba\source\repos\IoanaZgriba\grupa2\ToSteal.DTO\obj\Debug\netstandard2.1\ToSteal.DTO.pdb

@@ -262,6 +262,7 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
+  font-family: 'Comic Sans MS'
 }
 
 thead,

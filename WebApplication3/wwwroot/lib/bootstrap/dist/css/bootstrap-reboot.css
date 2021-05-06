@@ -177,6 +177,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  border: 5px solid red ;
 }
 
 caption {
@@ -189,6 +190,7 @@ caption {
 
 th {
   text-align: inherit;
+  font-family:'Comic Sans MS';
 }
 
 label {
