@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using WebApplication3.Models;
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
@@ -8,7 +9,6 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace WebApplication3.Models
 {
-   
     public partial class uvtdemosdbContext : DbContext
     {
         public uvtdemosdbContext()
@@ -23,6 +23,7 @@ namespace WebApplication3.Models
         public virtual DbSet<Administrator> Administrator { get; set; }
         public virtual DbSet<Camera> Camera { get; set; }
         public virtual DbSet<Camin> Camin { get; set; }
+        public virtual DbSet<LoginTable> LoginTable { get; set; }
         public virtual DbSet<Student> Student { get; set; }
         public virtual DbSet<Taxa> Taxa { get; set; }
         public virtual DbSet<Tichet> Tichet { get; set; }
@@ -133,6 +134,35 @@ namespace WebApplication3.Models
                     .HasForeignKey(d => d.IdTaxa)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__CAMIN__id_taxa__5EBF139D");
+            });
+
+            modelBuilder.Entity<LoginTable>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("LOGIN_TABLE");
+
+                entity.Property(e => e.IdAdministrator).HasColumnName("id_administrator");
+
+                entity.Property(e => e.IdStudent).HasColumnName("id_student");
+
+                entity.Property(e => e.Password)
+                    .HasColumnName("password")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Username)
+                    .HasColumnName("username")
+                    .HasMaxLength(255);
+
+                entity.HasOne(d => d.IdAdministratorNavigation)
+                    .WithMany()
+                    .HasForeignKey(d => d.IdAdministrator)
+                    .HasConstraintName("FK__LOGIN_TAB__id_ad__04E4BC85");
+
+                entity.HasOne(d => d.IdStudentNavigation)
+                    .WithMany()
+                    .HasForeignKey(d => d.IdStudent)
+                    .HasConstraintName("FK__LOGIN_TAB__id_st__05D8E0BE");
             });
 
             modelBuilder.Entity<Student>(entity =>
@@ -256,5 +286,7 @@ namespace WebApplication3.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        public DbSet<WebApplication3.Models.StudentList> StudentList { get; set; }
     }
 }

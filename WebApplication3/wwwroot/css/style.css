@@ -102,9 +102,6 @@ header,
 hgroup,
 menu,
 nav,
-section {
-display: block;
-}
 ol,
 ul {
 list-style: none;
@@ -184,11 +181,13 @@ max-width: 100%;
 /*end reset*/
 html,
 body {
-padding: 0;
-margin: 0;
-background: #fff;
-font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/jeremy.jpg);
 }
+
 body a {
 font-family: 'Montserrat', sans-serif;
 transition: 0.5s all;
@@ -242,8 +241,6 @@ padding: 0;
 }
 /*-- //Reset-Code --*/
 body {
-    
-    background-image: url("/images/b2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -252,23 +249,33 @@ body {
     -o-background-size: cover;
     min-height: 100vh;
 }
-.mid-cls{
-margin:0px auto;
-width: 28%;
+
+.wave {
+    position: fixed;
+    height: 95%;
+    left: 0;
+    bottom: 0;
+}
+
+img{
+    width:470px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+
+.mid-cls {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 600px; 
 }
 .swm-right-w3ls {
-background:rgba(255, 255, 255, 0.14);
-padding: 3em 2em;
-text-align:center;
--webkit-box-shadow:-1px 8px 37px 8px rgba(0, 0, 0, 0.44);
--moz-box-shadow:-1px 8px 37px 8px rgba(0, 0, 0, 0.44);
-box-shadow:-1px 8px 37px 8px rgba(0, 0, 0, 0.44);
-background: -webkit-linear-gradient(to left, #53e4a8, #8131d8);
-background: -ms-linear-gradient(to left, #53e4a8, #8131d8);
-background: -moz-linear-gradient(to left, #53e4a8, #8131d8);
-background: -o-linear-gradient(to left, #53e4a8, #8131d8);
-background:linear-gradient(to left, #53e4a8, #8131d8);
-border: 5px solid #fff;
+    background: rgba(255, 255, 255, 0.14);
+    text-align: center;
+    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.4);
+    background-color: #606c38;
+    height: 400px;
+    width: 400px;
 }
 h1.header-w3ls {
 font-size: 54px;
@@ -281,29 +288,30 @@ text-shadow: 2px 3px rgba(0, 0, 0, 0.49);
 letter-spacing: 2px;
 }
 .mid-cls h2 {
-font-size: 24px;
-color: #fff;
-font-weight: 500;
-margin-bottom: 28px;
+    font-size: 24px;
+    color: #fefae0;
+    font-weight: 500;
+    margin-bottom: 28px;
 }
-.form-right-w3ls input[type="password"], .form-left-w3l input[type="email"] {
-width: 100%;
-color: #000;
-outline: none;
-font-size: 14px;
-padding: 14px 12px;
-margin: 0px 0px 23px;
-border: none;
-border-bottom: 2px solid #000;
--webkit-appearance: none;
-display: inline-block;
-background:#fff;
-transition: all 0.5s ease-in-out;
--webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
--ms-transition: all 0.5s ease-in-out;
-box-sizing: border-box;
+.form-right-w3ls input[type="password"],
+.form-left-w3l input[type="text"] {
+    width: 100%;
+    color: #dda15e;
+    outline: none;
+    font-size: 14px;
+    padding: 14px 12px;
+    margin: 0px 0px 23px;
+    border: none;
+    border-bottom: 2px solid #283618;
+    -webkit-appearance: none;
+    display: inline-block;
+    background: #606c38;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
 }
 ::-webkit-input-placeholder {
 /* Chrome/Opera/Safari */
@@ -322,52 +330,52 @@ color: #000;
 color: #000;
 }
 button[type=submit] {
-width: 40%;
-background: #f9f9f9;
-outline: none;
-color: #000;
-font-size: 14px;
-border: none;
-font-weight: bold;
-padding: 13px 6px;
-margin-top:20px;
-letter-spacing: 1px;
-text-transform: uppercase;
-cursor: pointer;
-font-family: 'Montserrat', sans-serif;
-transition: 0.5s all;
--webkit-transition: 0.5s all;
--o-transition: 0.5s all;
--moz-transition: 0.5s all;
--ms-transition: 0.5s all;
+    width: 40%;
+    background: #fefae0;
+    outline: none;
+    color: #283618;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+    padding: 13px 6px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
 }
 button:hover {
-color: #fff;
-background: #000;
+    color: #fefae0;
+    background: #283618;
 }
 .left-side{
-position: relative;
-display:flex;
+    position: relative;
+    display:flex;
 }
 .left-side a.for ,.span{flex:1;}
 .left-side a.for ,.span{
-font-size: 13px;
-color: #fff;
-text-align: center;
-display: block;
-letter-spacing: 1px;
-text-transform: capitalize;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 .left-side a.for:hover {
-color: #33e8ff;
+    color: #33e8ff;
 }
 input.checked {
 /* display: inline-block; */
-position: absolute;
-top: -1px;
-width: 4%;
-left: 10px;
-cursor: pointer;
+    position: absolute;
+    top: -1px;
+    width: 4%;
+    left: 10px;
+    cursor: pointer;
 }
 .copy {
 padding: 40px 0px 30px;

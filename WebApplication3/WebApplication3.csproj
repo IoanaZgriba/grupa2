@@ -37,6 +37,8 @@
 
   <ItemGroup>
     <Folder Include="fonts\" />
+    <Folder Include="Views\Shared\NewFolder\" />
+    <Folder Include="Views\StudentList\" />
   </ItemGroup>
 
 </Project>

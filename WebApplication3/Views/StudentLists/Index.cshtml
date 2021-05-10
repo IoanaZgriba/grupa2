@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebApplication3.Models.StudentList>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/LayoutPage1.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nume_administrator)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Id_camera)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nume_administrator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_camera)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Nr_telefon">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Nr_telefon">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Nr_telefon">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

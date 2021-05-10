@@ -21,8 +21,7 @@ namespace WebApplication3.Controllers
         // GET: Tichets
         public async Task<IActionResult> Index()
         {
-            var uvtdemosdbContext = _context.Tichet.Include(t => t.CnpStudentNavigation).Include(t => t.IdAdministratorNavigation);
-            return View(await uvtdemosdbContext.ToListAsync());
+            return View("/Views/Tichets/Index1.cshtml");
         }
 
         // GET: Tichets/Details/5

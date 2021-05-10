@@ -2,6 +2,11 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section usage{
+    <link href="~/css/uniform.default.css" rel="stylesheet" />
 }
 
 <h1>Index</h1>
@@ -28,26 +33,27 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Etaj)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NrPaturi)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NrMobilier)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCaminNavigation.Adresa)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCamera">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdCamera">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCamera">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Etaj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NrPaturi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NrMobilier)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCaminNavigation.Adresa)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdCamera">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdCamera">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdCamera">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

@@ -2,7 +2,13 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+@section usage{
+    <link href="~/css/uniform.default.css" rel="stylesheet" />
+}
+
 
 <h1>Index</h1>
 
@@ -22,20 +28,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pret)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DescriereTaxa)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdTaxa">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdTaxa">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdTaxa">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pret)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescriereTaxa)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdTaxa">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdTaxa">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdTaxa">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

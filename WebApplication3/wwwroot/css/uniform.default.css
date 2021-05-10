@@ -1,0 +1,69 @@
+﻿body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #3c373e;
+    font-weight: 300;
+}
+thead {
+    background-color: #8ecae6;
+}
+
+th {
+    padding-bottom: 30px;
+    border-top: none;
+    border-bottom: none !important;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+td {
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+tr {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+table{
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #2a272b;
+}
+
+tr:hover td {
+    background-color: #081c15;
+    color: #ffb703;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #fb8500;
+}
+
+    a, a:hover {
+        text-decoration: none !important;
+    }

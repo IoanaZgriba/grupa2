@@ -34,6 +34,7 @@ namespace WebApplication3
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseDeveloperExceptionPage();
 
             app.UseEndpoints(endpoints =>
             {

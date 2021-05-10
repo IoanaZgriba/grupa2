@@ -172,6 +172,7 @@ C:\Users\alexs\source\repos\SimpleWebApp2\WebApplication3\obj\Debug\netcoreapp3.
 C:\Users\alexs\source\repos\SimpleWebApp2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Details.cshtml.g.cs
 C:\Users\alexs\source\repos\SimpleWebApp2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Edit.cshtml.g.cs
 C:\Users\alexs\source\repos\SimpleWebApp2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Taxas\Index.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\WebApplication3.exe
@@ -185,7 +186,6 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\WebAp
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\alexs\source\repos\grupa2\WebApplication3\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
@@ -334,9 +334,15 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\LayoutPage1.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminView.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\StudentLists\Create.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\StudentLists\Delete.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\StudentLists\Details.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\StudentLists\Edit.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\StudentLists\Index.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Students\Create.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Students\Delete.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
@@ -352,6 +358,7 @@ C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Details.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Edit.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Index.cshtml.g.cs
+C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\Tichets\Index1.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\alexs\source\repos\grupa2\WebApplication3\obj\Debug\netcoreapp3.1\WebApplication3.RazorTargetAssemblyInfo.cache
